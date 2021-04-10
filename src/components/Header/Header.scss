@@ -1,0 +1,35 @@
+.header{
+  display: flex;      
+  width: 100%;
+  background-color: #5D30DD;
+  justify-content: center;
+
+  .top {
+      display: flex;
+      width: 100%;
+      background-color: transparent;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 50px;
+      height: 60px;  
+      max-width: 1350px;
+
+      &_logo {
+          display: flex;
+
+          img.img-logo {
+              width: 150px;
+          }
+      }
+
+      &_question {
+          display: flex;
+
+          h4 {
+              color: #ffffff;
+              font-size: 12px;
+              font-weight: 500;
+          }
+      }
+  }
+}

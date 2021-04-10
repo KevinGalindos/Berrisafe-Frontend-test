@@ -1,0 +1,30 @@
+.Home{
+    background: #E5E5E5;
+}
+
+.container-box{
+    display: flex;      
+    width: 100%;
+    justify-content: center;  
+
+    .adjust-box{
+        display: flex;
+        padding: 0 20px;
+        max-width: 1350px;
+    }
+
+    .central-box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-top: 30px;
+        padding-right: 30px;
+    }
+    
+}

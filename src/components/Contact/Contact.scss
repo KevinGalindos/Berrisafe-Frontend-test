@@ -1,0 +1,209 @@
+.bg-contact-wapp {
+  background: #ffffff;
+  position: relative;
+  z-index: 5;
+}
+
+.contact_wa {
+  display: flex;
+  flex-direction: column;
+  background: #5D30DD;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 0 0 10px 10px;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+
+  .wa-title {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+
+      h3 {
+          font-size: 28px;
+          font-weight: 900;
+          color: #ffffff;
+      }
+  }
+
+  .wa-button {
+      display: flex;
+      width: 100%;
+
+      button {
+          display: flex;
+          width: 100%;
+          height: 45px;
+          justify-content: center;
+          align-items: center;
+          border: transparent;
+          border-radius: 5px;
+          background: #25D366;
+          font-size: 14px;
+          font-weight: 900;
+          color: #ffffff;
+          gap: 10px;
+
+          .wa-icon {
+              font-size: 20px;
+              
+          }
+      }
+  }
+}
+
+.state-box {
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  background: #ffffff;
+  position: relative;
+  z-index: 3;
+
+  .schedule-call {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      border-radius: 0 0 10px 10px;
+
+      .content-box {
+          display: flex;
+          width: 85%;
+          justify-content: space-between;
+
+          .content-title {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 0;
+              grid-gap: 5px;
+              gap: 5px;
+
+              span {
+                  background-color: #6FCF97;
+                  height: 10px;
+                  width: 10px;
+                  border-radius: 50%;
+              }
+
+              h2 {
+                  font-size: 28px;
+                  color: #5D30DD;
+                  margin: 0;
+                  font-weight: 900;
+              }
+          }
+
+          .icon-videocall {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #5D30DD;
+          }
+
+          .divider{
+              display: flex;
+  
+              span {
+                  border-right: 1px solid #5D30DD;
+              }
+          }
+  
+          .icon-phone {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-right: none;
+              color: #5D30DD;
+          }
+      }
+
+      .call-box {
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          width: 75%;
+
+          h3 {
+              text-decoration-line: underline;
+              color: #4B3A7C;
+              font-weight: 600;
+              font-size: 14px;
+          }
+      }
+
+  }
+}
+
+.contact_mail {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding-top: 15px;
+  align-items: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+
+  .content-mail {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 85%;
+      height: 60px;
+      border-bottom: 1px solid #1b1b1b38;
+      
+      .write-mail{
+        display: flex;
+        
+        h3{
+          font-size: 16px;
+          font-weight: 700;
+          color: #5D30DD;
+        }
+      
+      }
+
+      .btn-mail{
+        display: flex;
+
+        button {
+          background-color: #5D30DD;
+          border: none;
+          width: 85px;
+          height: 35px;
+          border-radius: 5px;
+          font-size: 16px;
+          color: #ffffff;
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+  }
+
+  .text-mail {
+      display: flex;
+      padding:10px;
+      width: 90%;
+
+      p{
+        font-size: 10px;
+        color: #1B1B1B;
+        opacity: 0.3;
+        font-weight: 400;
+      }
+  }
+
+  .ftr-mail {
+    display: flex;
+
+    img{
+      width: 320px;
+    }
+}
+
+}

@@ -1,0 +1,196 @@
+.profile {
+  display: flex;
+  width: 92%;
+  height: 250px;
+  background: #F7F7F7;
+  margin: 30px 30px 3px;
+  margin-right: 0;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+
+  &_picture-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 75%;
+      padding-top: 20px;
+      width: 25%;
+  
+      .wraper-pic {
+          display: flex;
+          width: 80%;
+          justify-content: center;
+
+          img.img-profile {
+              width: 130px;
+          }
+      }
+
+      .profile-name {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          gap: 5px;
+          height: 25px;        
+
+          h4 {
+              font-family: 'Roboto', sans-serif;
+              font-size: 14px;
+              font-weight: 900;
+              color: #5D30DD;
+              margin: 0;
+          }
+
+          .icon-verified {
+              display: flex;
+              width: 20px;
+              height: 20px;
+          }
+
+          .icon-info {
+              display: flex;
+              height: 10px;
+              width: auto;
+          }
+      }
+
+  }
+
+  &_personal-info {
+      display: flex;
+      margin-top: 20px;
+      flex-direction: column;
+      width: 65%;
+
+      .content-info {
+          display: flex;
+          gap: 5px;
+
+          .title-name {
+              display: flex;
+
+              h1 {
+                  font-size: 35px;
+                  color: #4B3A7C;
+                  font-weight: 900;
+                  margin: 0;
+              }
+          }
+      }
+
+      .content-job-ubication {
+          display: flex;
+          gap: 10px;
+          width: 100%;
+          font-family: 'Roboto', sans-serif;
+          font-size: 12px;
+          
+          h4{
+              opacity: 0.5;
+          }
+
+          .job-adress {
+              display: flex;
+              gap: 5px;
+              margin-left: 5px;
+          }
+          
+      }
+
+      .social-media-line {
+          display: flex;
+          margin: 15px 0;
+          height: 25px;
+
+          img{
+              width: 25px;
+          }
+
+          .social-icons {
+              display: flex;
+              gap: 20px;
+
+          }
+      }
+
+
+      .personal-description {
+          display: flex;
+          width: 85%;
+          font-size: 12px;
+          line-height: 20px;
+          font-family: 'Roboto', sans-serif;
+      
+          span {
+              margin-left: 10px;
+              font-size: 11px;
+              color: #4B3A7C;
+              font-weight: bold;
+          }
+      }
+
+  }
+
+  &_logo-certified {
+      display: flex;
+      width: 25%;
+      justify-content: center;
+  }
+
+}
+
+.enterprise {
+  width: 92%;
+  display: flex;
+  margin: 0 30px;
+
+  &_brands {
+      display: flex;
+      width: 100%;
+      padding: 0 30px;
+      height: 65px;
+      justify-content: space-around;
+      align-items: center;
+      background: #F7F7F7;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+
+      
+      img {
+          width: 50%;
+      }
+
+      .logo-1 {
+          display: flex;
+          justify-content: center;
+          width: 15%;
+
+          img {
+              width: 80%;
+          }
+      }
+
+      .logo-2 {
+          display: flex;
+          justify-content: center;
+          width: 16%;
+      }
+
+      .logo-3 {
+          display: flex;
+          justify-content: center;
+          width: 16%;
+      }
+
+      .logo-4 {
+          display: flex;
+          justify-content: center;
+          width: 10%;
+      }
+
+      .logo-5 {
+          display: flex;
+          justify-content: center;
+          width: 10%;
+      }
+  }
+}
